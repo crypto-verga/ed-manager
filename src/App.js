@@ -5,10 +5,10 @@ import Jugadores from "./componentes/Jugadores";
 
 const App = () => (
   <Provider store={store}>
-      <main>
-        <h1 >EDmanager</h1>
-        <Jugadores />
-      </main>
+    <main>
+      <h1 >EDmanager</h1>
+      <Jugadores />
+    </main>
   </Provider>
 )
 
